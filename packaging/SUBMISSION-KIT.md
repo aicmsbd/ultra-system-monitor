@@ -12,7 +12,7 @@ Copy-paste the blocks below into each site's submission form.
 | **AUR** (Arch Linux) | Free | PKGBUILD ready in `packaging/aur/` — needs an aur.archlinux.org account + SSH key (steps in the file) |
 | **Flathub** (Linux) | Free | Full manifest ready in `packaging/flathub/` — test with flatpak-builder on a Linux box, then PR to flathub/flathub (steps in the manifest header) |
 | **Microsoft Store** | Free (individual account) | Needs your Partner Center account — see steps below |
-| **Chocolatey** | Free | Package ready in `packaging/chocolatey/` — needs your chocolatey.org account |
+| **Chocolatey** | Free | ✅ **Pushed** (2026-08-03) — in automated checks + moderation queue (https://ch0.co/moderation); once approved: `choco install ultra-system-monitor` |
 | **FossHub** | Free | Form submission below |
 | **Softpedia** | Free | ✅ **Submitted** (2026-08-03) — 24–48 h review queue |
 | **MajorGeeks** | Free | Email submission below |
