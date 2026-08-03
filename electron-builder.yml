@@ -1,0 +1,47 @@
+appId: com.ultrasystemmonitor.app
+productName: Ultra System Monitor
+copyright: Copyright © 2026 AiCMS.BD — Freeware
+
+directories:
+  output: release
+  buildResources: assets
+
+files:
+  - dist/**
+  - dist-electron/**
+  - package.json
+
+# assets/icon.png (512×512) is auto-converted to .ico / .icns per platform.
+icon: assets/icon.png
+
+win:
+  target:
+    - target: nsis
+      arch: [x64]
+  artifactName: UltraSystemMonitor-Setup-${version}.exe
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Ultra System Monitor
+  runAfterFinish: true
+
+linux:
+  target:
+    - target: AppImage
+      arch: [x64]
+    - target: deb
+      arch: [x64]
+  category: System
+  synopsis: Real-time system monitoring sidebar
+  artifactName: UltraSystemMonitor-${version}-${arch}.${ext}
+
+mac:
+  target:
+    - target: dmg
+      arch: [x64, arm64]
+  category: public.app-category.utilities
+  artifactName: UltraSystemMonitor-${version}-${arch}.${ext}

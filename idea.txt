@@ -1,0 +1,334 @@
+ডায়াগ্রাম: প্রফেশনাল সিস্টেম মনিটর সাইডবার
+নিচে আপনার কাঙ্ক্ষিত সিস্টেম মনিটরের একটি ভিজ্যুয়াল ডায়াগ্রাম দেওয়া হলো:
+
+text
+╔══════════════════════════════════════════════════════╗
+║  ⚡ ULTRA SYSTEM MONITOR v1.0           [─][□][×]  ║
+╠══════════════════════════════════════════════════════╣
+║  ┌──────────────────────────────────────────────┐  ║
+║  │  🕐 03:45:22 PM  │  📅 Aug 03, 2026         │  ║
+║  └──────────────────────────────────────────────┘  ║
+║                                                      ║
+║  ┌─ 🖥️ CPU: Intel Core i9-14900K ─────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ Overall Load:  67%  [████████░░░░]         │ │ ║
+║  │ │ Temperature:   72°C [███████░░░░░] ⚠️       │ │ ║
+║  │ │ Base Clock:    3.2 GHz                     │ │ ║
+║  │ │ Current:       5.8 GHz (Turbo)             │ │ ║
+║  │ │ Voltage:       1.28V                       │ │ ║
+║  │ │ Power:         142W                        │ │ ║
+║  │ │ Fan Speed:     1850 RPM                    │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  │ ┌─ Core Status (24 Threads) ──────────────────┐│ ║
+║  │ │ C0:  ████████░░ 82% 68°C  │ C1: █████░░░ 48%││ ║
+║  │ │ C2:  ████████░░ 79% 70°C  │ C3: ██████░░ 61%││ ║
+║  │ │ C4:  ███████░░░ 74% 69°C  │ C5: ████░░░░ 42%││ ║
+║  │ │ C6:  ████████░░ 85% 71°C  │ C7: █████░░░ 55%││ ║
+║  │ │ C8:  ████████░░ 78% 67°C  │ C9: ██████░░ 63%││ ║
+║  │ │ ... [expandable grid view]                  ││ ║
+║  │ └─────────────────────────────────────────────┘│ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ 🎮 GPU: NVIDIA RTX 4090 ──────────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ Core Load:     89%  [█████████░░░] 🔥       │ │ ║
+║  │ │ Temperature:   78°C [███████░░░░░] ⚠️       │ │ ║
+║  │ │ Core Clock:    2.85 GHz                    │ │ ║
+║  │ │ Memory Clock:  21.0 Gbps                   │ │ ║
+║  │ │ VRAM Used:     18.2 GB / 24 GB             │ │ ║
+║  │ │ Power Draw:    385W / 450W                 │ │ ║
+║  │ │ Fan Speed:     68% (2100 RPM)              │ │ ║
+║  │ │ Voltage:       1.05V                       │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ 💾 RAM: DDR5-6000 64GB ───────────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ Usage:         74%  [███████░░░░░]         │ │ ║
+║  │ │ Used:          47.3 GB / 64.0 GB           │ │ ║
+║  │ │ Speed:         6000 MHz (XMP Active)       │ │ ║
+║  │ │ Temperature:   42°C  [████░░░░░░░░] ✅      │ │ ║
+║  │ │ Voltage:       1.35V                       │ │ ║
+║  │ │ Page File:     12% used                    │ │ ║
+║  │ │ Cache:         8.4 GB                      │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ 🔧 Motherboard: ASUS ROG Z790 ────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ Temperature:   38°C  [███░░░░░░░░░] ✅      │ │ ║
+║  │ │ VRM Temp:      45°C  [████░░░░░░░░] ✅      │ │ ║
+║  │ │ BIOS Version:  1602                          │ │ ║
+║  │ │ Fan Headers:   4/6 Active                  │ │ ║
+║  │ │ 12V Rail:      12.08V                      │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ 🌐 Network ───────────────────────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ Adapter:       Intel 2.5GbE                │ │ ║
+║  │ │ ⬇ Download:    847 Mbps [████████░░░]      │ │ ║
+║  │ │ ⬆ Upload:      125 Mbps [██░░░░░░░░░]      │ │ ║
+║  │ │ Latency:       12ms (Google DNS)           │ │ ║
+║  │ │ Total Down:    4.2 GB today                │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  │ ┌─ Real-time Graph ─────────────────────────┐│ ║
+║  │ │  ╱╲    ╱╲                                    ││ ║
+║  │ │ ╱  ╲  ╱  ╲    ╱╲    ← Down                 ││ ║
+║  │ │╱    ╲╱    ╲  ╱  ╲                          ││ ║
+║  │ │          ╲╱    ╲    ← Up                  ││ ║
+║  │ └─────────────────────────────────────────────┘│ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ 💽 Storage ───────────────────────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ C: NVMe 2TB    68% [██████░░░░░] 42°C      │ │ ║
+║  │ │    Read:  3.2 GB/s │ Write: 1.8 GB/s       │ │ ║
+║  │ │ D: SSD 1TB     45% [████░░░░░░░░] 38°C     │ │ ║
+║  │ │    Read:  450 MB/s │ Write: 380 MB/s       │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ 🛡️ Security & Health ─────────────────────────┐ ║
+║  │ ┌────────────────────────────────────────────┐ │ ║
+║  │ │ Windows Defender:  ✅ Active               │ │ ║
+║  │ │ Firewall:          ✅ Enabled              │ │ ║
+║  │ │ Last Scan:         Today 09:30 AM          │ │ ║
+║  │ │ Threats Found:     0                       │ │ ║
+║  │ │ Uptime:            3d 7h 22m               │ │ ║
+║  │ │ Health Score:      94/100 ✅               │ │ ║
+║  │ └────────────────────────────────────────────┘ │ ║
+║  └──────────────────────────────────────────────────┘ ║
+║                                                      ║
+║  ┌─ ⚙️ Quick Actions ─────────────────────────────┐ ║
+║  │  [📊] [⚙️] [📈] [🔔] [🎨] [📸] [❓]         │ ║
+║  └──────────────────────────────────────────────────┘ ║
+╚══════════════════════════════════════════════════════╝
+
+Legend: ✅ Normal  ⚠️ Warning  🔥 Critical
+ক্লড কোডের জন্য ফাইনাল কমান্ড
+নিচের প্রম্পটটি ক্লড কোডে ব্যবহার করুন:
+
+text
+Create a professional, modern Windows desktop system monitoring sidebar application with the following comprehensive requirements:
+
+## Core Architecture
+- Build using Electron + React + TypeScript for cross-platform compatibility
+- Use LibreHardwareMonitor library (via node-librehardwaremonitor or C# bridge) for hardware sensor data
+- Implement real-time data collection with 1-second refresh intervals
+- Use WebSocket or IPC for efficient data streaming between backend and frontend
+
+## UI/UX Requirements
+- Fixed sidebar positioned on the RIGHT side of Windows desktop (380-420px width)
+- Frameless, always-on-top window with transparency options
+- Dark theme with neon accent colors (cyan, green, amber for warnings, red for critical)
+- Smooth animations and transitions using CSS/GSAP
+- Expandable/collapsible sections for each component
+- Custom scrollbars and glassmorphism effects
+- Professional typography (Inter or Roboto fonts)
+- Responsive grid layouts for multi-core display
+
+## Monitoring Components
+
+### 1. CPU Monitoring (Per-Core)
+- Display each physical core and logical thread individually
+- Per-core: usage %, temperature (°C), current frequency (GHz), voltage
+- Overall CPU: total load, package temperature, power draw (watts), fan speed
+- Grid layout showing 4-8 cores per row (expandable for full view)
+- Color-coded indicators: green (normal), yellow (70%+), red (85%+ or 80°C+)
+
+### 2. GPU Monitoring (Multi-Vendor Support)
+- Auto-detect NVIDIA, AMD, or Intel GPUs
+- Display: GPU model, core load %, temperature, core/memory clocks, VRAM usage
+- Power consumption, fan speed (% and RPM), voltage
+- Support for multiple GPUs if present
+- Use NVML for NVIDIA, ADL for AMD, Intel GPU API for Intel
+
+### 3. RAM Monitoring
+- Total/used/available memory in GB and percentage
+- RAM speed (MHz), timings (if available), voltage
+- Temperature per DIMM (if sensors available)
+- Page file usage and cache memory
+- XMP/DOCP profile status
+
+### 4. Motherboard Monitoring
+- Motherboard model and BIOS version
+- Motherboard temperature and VRM temperature
+- Voltage rails (12V, 5V, 3.3V)
+- Connected fan speeds and pump speeds (AIO coolers)
+
+### 5. Network Monitoring
+- Real-time upload/download speeds (Mbps/Gbps)
+- Network adapter name and connection type
+- Current latency (ping to 8.8.8.8 or 1.1.1.1)
+- Data usage statistics (daily/monthly totals)
+- Mini real-time graph showing last 60 seconds of traffic
+- Support for multiple adapters (Ethernet, WiFi, VPN)
+
+### 6. Storage Monitoring
+- All drives (NVMe, SSD, HDD) with model names
+- Used/free space with visual progress bars
+- Read/write speeds (current IOPS)
+- Drive temperatures and health status (SMART data)
+- Partition information
+
+### 7. Security & System Health
+- Windows Defender status (active/inactive)
+- Firewall status
+- Last virus scan date and threats detected
+- Windows Update status
+- System uptime
+- Overall health score (calculated from all metrics)
+
+### 8. Additional Features
+- System clock and date display
+- Alert system: desktop notifications for critical temps/usage
+- Historical data logging (SQLite database)
+- Export reports to CSV/JSON
+- Screenshot capture of stats
+- Customizable themes (Dark, Light, Neon, Minimal)
+- Start with Windows option
+- Multi-language support (English, Bengali)
+
+## Technical Implementation
+
+### Backend (Node.js/Electron Main Process)
+```typescript
+// Use these libraries:
+- node-librehardwaremonitor (or node-hwmonitor)
+- systeminformation (for OS-level data)
+- node-os-utils (CPU, memory, network stats)
+- ping (latency monitoring)
+- electron-store (settings persistence)
+- node-notifier (alerts)
+```
+
+### Frontend (React Components)
+Components/
+├── Sidebar/
+│ ├── Header (clock, controls)
+│ ├── CPUSection (per-core grid)
+│ ├── GPUSection (multi-GPU support)
+│ ├── RAMSection
+│ ├── MotherboardSection
+│ ├── NetworkSection (with graph)
+│ ├── StorageSection
+│ ├── SecuritySection
+│ └── Footer (quick actions)
+├── Charts/
+│ ├── NetworkGraph (Canvas/SVG)
+│ ├── TemperatureGraph
+│ └── UsageHistory
+└── Common/
+├── ProgressBar (animated)
+├── MetricCard
+├── AlertBadge
+└── ExpandablePanel
+
+text
+
+### Styling Guidelines
+- Use CSS-in-JS (styled-components or emotion)
+- Color palette:
+  - Background: #0a0e27 (dark blue)
+  - Accent: #00d9ff (cyan)
+  - Success: #00ff88 (green)
+  - Warning: #ffaa00 (amber)
+  - Critical: #ff0055 (red)
+  - Text: #ffffff, #a0a0a0
+- Smooth transitions (0.3s ease-in-out)
+- Hover effects on interactive elements
+- Pulse animation for critical alerts
+- Glassmorphism: backdrop-filter blur(10px) with rgba backgrounds
+
+### Performance Optimization
+- Use React.memo and useMemo for expensive renders
+- Implement virtual scrolling for large core counts
+- Throttle sensor polling (1s intervals, adjustable)
+- Use requestAnimationFrame for smooth animations
+- Lazy load charts and historical data
+
+### Data Flow
+Hardware Sensors → LibreHardwareMonitor → Node.js Backend
+→ IPC/WebSocket → React Frontend → Real-time UI Updates
+
+text
+
+### Alert System
+```typescript
+Thresholds:
+- CPU Temp: Warning 75°C, Critical 85°C
+- GPU Temp: Warning 80°C, Critical 90°C
+- CPU Usage: Warning 90%, Critical 95%
+- RAM Usage: Warning 85%, Critical 95%
+- Storage: Warning 90% full, Critical 95% full
+
+Show desktop notifications + in-app alerts
+```
+
+## Window Management
+- Register as Windows sidebar (dockable)
+- Remember position and size
+- Minimize to system tray
+- Always-on-top toggle
+- Opacity control (50-100%)
+- Auto-hide option (slide out on mouse leave)
+
+## Installation & Setup
+- Provide installer using electron-builder
+- Auto-start with Windows (optional)
+- First-run wizard to detect hardware
+- Calibration screen for sensor verification
+- Settings panel for customization
+
+## File Structure
+ultra-system-monitor/
+├── electron/
+│ ├── main.ts (window management)
+│ ├── preload.ts
+│ └── hardware-monitor.ts (sensor data collection)
+├── src/
+│ ├── components/ (React components)
+│ ├── hooks/ (custom React hooks)
+│ ├── services/ (data services)
+│ ├── styles/ (theme and global styles)
+│ ├── utils/ (helpers)
+│ └── App.tsx
+├── assets/
+│ ├── icons/
+│ └── fonts/
+├── package.json
+└── electron-builder.yml
+
+text
+
+## Expected Outcome
+A professional-grade system monitoring sidebar that rivals commercial solutions like AIDA64, Sidebar Diagnostics, and HWiNFO, with modern UI/UX, comprehensive hardware monitoring, real-time updates, and enterprise-level polish. The application should be production-ready with proper error handling, logging, and user documentation.
+
+Generate complete, working code with all necessary files, comments, and setup instructions.
+ব্যাখ্যা
+এই ডায়াগ্রাম এবং প্রম্পটে যা অন্তর্ভুক্ত রয়েছে:
+
+সেন্সর ডেটা সংগ্রহ:
+
+LibreHardwareMonitor লাইব্রেরি ব্যবহার করে CPU, GPU, RAM, মাদারবোর্ডের সব সেন্সর ডেটা পাওয়া যাবে
+
+প্রতিটি কোরের আলাদা আলাদা তাপমাত্রা ও ব্যবহার দেখানো সম্ভব
+
+NVIDIA, AMD, Intel - তিনটি GPU ব্র্যান্ডই সাপোর্ট করবে
+
+প্রফেশনাল UI:
+
+Glassmorphism এবং dark theme দিয়ে আধুনিক লুক
+
+রঙ-ভিত্তিক সতর্কতা (সবুজ → হলুদ → লাল)
+
+Real-time গ্রাফ এবং অ্যানিমেশন
+
+নিরাপত্তা ফিচার:
+
+Windows Defender এবং Firewall স্ট্যাটাস
+
+তাপমাত্রা ও ব্যবহারের সীমা অতিক্রম করলে অ্যালার্ট
+
+এই প্রম্পট ক্লড কোডে দিলে একটি সম্পূর্ণ কার্যকর অ্যাপ্লিকেশন তৈরি হয়ে যাবে।
