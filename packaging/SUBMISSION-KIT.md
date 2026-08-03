@@ -18,6 +18,33 @@ Copy-paste the blocks below into each site's submission form.
 | **Homebrew cask** (macOS) | Free | Cask ready in `packaging/homebrew/` — submit after ~75 GitHub stars (their notability bar) |
 | **Flathub / Snap** (Linux) | Free | Requires flatpak/snap targets — future work |
 
+## Account details (use these on every signup form)
+
+| Field | Value |
+|---|---|
+| Email | `mail@aicms.bd` |
+| Company / Organization | `AiCMS` |
+| Display / Publisher name | `AiCMS.BD` |
+| Website | `https://aicms.bd` |
+| Address | `UTC Building, 19th Floor, Kawran Bazar, Dhaka 1215, Bangladesh` |
+| Phone | `+880 9696-117067` |
+| Country | `Bangladesh` |
+
+**Signup checklist (each ~2 minutes, all free):**
+
+1. **Microsoft Partner Center** — https://partner.microsoft.com/dashboard/registration → *Individual* (free) or *Company* account → verify email → reserve app name "Ultra System Monitor". Then paste the Product-identity values into `electron-builder.yml` and run `npm run dist:store`.
+2. **Chocolatey** — https://community.chocolatey.org/account/Register → verify email → copy your API key from your account page → run:
+   ```
+   cd packaging/chocolatey
+   choco pack
+   choco push ultra-system-monitor.1.0.0.nupkg --source https://push.chocolatey.org/ --api-key YOUR_KEY
+   ```
+3. **FossHub** — https://www.fosshub.com → Developers → Submit software → paste the metadata block below.
+4. **Softpedia** — https://www.softpedia.com/user/register.shtml → then submit the program page with the metadata block.
+5. **SourceForge** — https://sourceforge.net/user/registration → Create Project → import/mirror the GitHub repo (releases mirror automatically).
+6. **AlternativeTo** — https://alternativeto.net/account/signup/ → "Add an application" → mark as alternative to HWiNFO, Sidebar Diagnostics, AIDA64, Rainmeter.
+7. **MajorGeeks** — no account; email the metadata block to their submission address (site footer).
+
 ## Copy-paste metadata
 
 **Name:** Ultra System Monitor
