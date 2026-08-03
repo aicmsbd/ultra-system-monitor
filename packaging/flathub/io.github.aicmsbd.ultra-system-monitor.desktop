@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Ultra System Monitor
+Comment=Real-time system monitoring sidebar with detachable speedometer widgets
+Exec=ultra-system-monitor
+Icon=io.github.aicmsbd.ultra-system-monitor
+Type=Application
+Categories=System;Monitor;
+Keywords=cpu;gpu;ram;monitor;hardware;sensors;
+StartupWMClass=Ultra System Monitor

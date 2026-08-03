@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.aicmsbd.ultra-system-monitor</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://github.com/aicmsbd/ultra-system-monitor/blob/main/LICENSE</project_license>
+  <name>Ultra System Monitor</name>
+  <summary>Real-time system monitoring sidebar</summary>
+  <developer id="bd.aicms"><name>AiCMS.BD</name></developer>
+  <description>
+    <p>
+      Free real-time system monitoring sidebar: per-core CPU load and temperature,
+      GPU statistics, RAM, motherboard sensors, network speeds with live graphs,
+      storage capacity and security health. Detach any section as a floating widget
+      with card or analog speedometer gauge view. 3D glassmorphism themes, custom
+      accent colors, English and Bangla. No ads, no tracking, no telemetry.
+    </p>
+  </description>
+  <launchable type="desktop-id">io.github.aicmsbd.ultra-system-monitor.desktop</launchable>
+  <url type="homepage">https://github.com/aicmsbd/ultra-system-monitor</url>
+  <url type="bugtracker">https://github.com/aicmsbd/ultra-system-monitor/issues</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Monitoring sidebar with detached speedometer widgets</caption>
+      <image>https://raw.githubusercontent.com/aicmsbd/ultra-system-monitor/main/assets/icon.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="1.0.0" date="2026-08-03"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

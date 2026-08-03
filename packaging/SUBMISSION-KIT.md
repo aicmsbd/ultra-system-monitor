@@ -7,7 +7,10 @@ Copy-paste the blocks below into each site's submission form.
 
 | Venue | Cost | Status |
 |---|---|---|
-| **winget** (Windows Package Manager) | Free | ✅ **Submitted** — [PR #411531](https://github.com/microsoft/winget-pkgs/pull/411531). Once merged: `winget install AiCMSBD.UltraSystemMonitor` |
+| **winget** (Windows Package Manager) | Free | ✅ **Submitted** — [PR #411531](https://github.com/microsoft/winget-pkgs/pull/411531), CLA signed. Once merged: `winget install AiCMSBD.UltraSystemMonitor` |
+| **Scoop** (Windows Package Manager) | Free | ✅ **Submitted** — [Extras PR #18447](https://github.com/ScoopInstaller/Extras/pull/18447). Once merged: `scoop install ultra-system-monitor` |
+| **AUR** (Arch Linux) | Free | PKGBUILD ready in `packaging/aur/` — needs an aur.archlinux.org account + SSH key (steps in the file) |
+| **Flathub** (Linux) | Free | Full manifest ready in `packaging/flathub/` — test with flatpak-builder on a Linux box, then PR to flathub/flathub (steps in the manifest header) |
 | **Microsoft Store** | Free (individual account) | Needs your Partner Center account — see steps below |
 | **Chocolatey** | Free | Package ready in `packaging/chocolatey/` — needs your chocolatey.org account |
 | **FossHub** | Free | Form submission below |

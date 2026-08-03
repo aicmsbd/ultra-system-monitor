@@ -1,0 +1,46 @@
+# Flathub submission manifest (repackages the official .deb release).
+#
+# Submission flow (no paid account, GitHub-based):
+#   1. Test locally on any Linux box:
+#        flatpak-builder --install --user build io.github.aicmsbd.ultra-system-monitor.yml
+#   2. Then open a PR against https://github.com/flathub/flathub (branch: new-pr)
+#      containing this file + the metainfo below. Flathub CI builds and reviews it.
+# The io.github.aicmsbd.* app ID auto-verifies through the GitHub repo.
+app-id: io.github.aicmsbd.ultra-system-monitor
+runtime: org.freedesktop.Platform
+runtime-version: '24.08'
+sdk: org.freedesktop.Sdk
+base: org.electronjs.Electron2.BaseApp
+base-version: '24.08'
+command: ultra-system-monitor
+separate-locales: false
+finish-args:
+  - --share=ipc
+  - --socket=x11
+  - --share=network
+  - --device=dri
+  - --talk-name=org.freedesktop.Notifications
+modules:
+  - name: ultra-system-monitor
+    buildsystem: simple
+    build-commands:
+      - ar x UltraSystemMonitor.deb
+      - tar xf data.tar.xz
+      - cp -r "opt/Ultra System Monitor" /app/main
+      - install -Dm755 run.sh /app/bin/ultra-system-monitor
+      - install -Dm644 "usr/share/icons/hicolor/512x512/apps/ultra-system-monitor.png" /app/share/icons/hicolor/512x512/apps/io.github.aicmsbd.ultra-system-monitor.png
+      - install -Dm644 io.github.aicmsbd.ultra-system-monitor.desktop /app/share/applications/io.github.aicmsbd.ultra-system-monitor.desktop
+      - install -Dm644 io.github.aicmsbd.ultra-system-monitor.metainfo.xml /app/share/metainfo/io.github.aicmsbd.ultra-system-monitor.metainfo.xml
+    sources:
+      - type: file
+        url: https://github.com/aicmsbd/ultra-system-monitor/releases/download/v1.0.0/UltraSystemMonitor-1.0.0-amd64.deb
+        sha256: 70c181804d7acac389abf15c27de8a7c46462665a84c21ff9ef76e24f9987bcd
+        dest-filename: UltraSystemMonitor.deb
+      - type: script
+        dest-filename: run.sh
+        commands:
+          - exec zypak-wrapper /app/main/ultra-system-monitor "$@"
+      - type: file
+        path: io.github.aicmsbd.ultra-system-monitor.desktop
+      - type: file
+        path: io.github.aicmsbd.ultra-system-monitor.metainfo.xml

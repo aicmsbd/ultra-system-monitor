@@ -1,0 +1,21 @@
+# Maintainer: AiCMS.BD <mail@aicms.bd>
+# AUR submission requires an aur.archlinux.org account + SSH key:
+#   git clone ssh://aur@aur.archlinux.org/ultra-system-monitor-bin.git
+#   copy this file in, run: makepkg --printsrcinfo > .SRCINFO && git add -A && git commit && git push
+pkgname=ultra-system-monitor-bin
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Real-time system monitoring sidebar with detachable speedometer widgets, by AiCMS.BD"
+arch=('x86_64')
+url="https://github.com/aicmsbd/ultra-system-monitor"
+license=('LicenseRef-AiCMS.BD-Freeware')
+depends=('gtk3' 'nss' 'alsa-lib' 'libxss' 'libnotify')
+provides=('ultra-system-monitor')
+conflicts=('ultra-system-monitor')
+source=("${url}/releases/download/v${pkgver}/UltraSystemMonitor-${pkgver}-amd64.deb")
+sha256sums=('70c181804d7acac389abf15c27de8a7c46462665a84c21ff9ef76e24f9987bcd')
+
+package() {
+  bsdtar -xf data.tar.xz -C "${pkgdir}/"
+  chmod -R go-w "${pkgdir}"
+}
