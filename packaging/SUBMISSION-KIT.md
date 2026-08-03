@@ -14,10 +14,11 @@ Copy-paste the blocks below into each site's submission form.
 | **Microsoft Store** | Free (individual account) | Needs your Partner Center account — see steps below |
 | **Chocolatey** | Free | Package ready in `packaging/chocolatey/` — needs your chocolatey.org account |
 | **FossHub** | Free | Form submission below |
-| **Softpedia** | Free | Form submission below |
+| **Softpedia** | Free | ✅ **Submitted** (2026-08-03) — 24–48 h review queue |
 | **MajorGeeks** | Free | Email submission below |
-| **SourceForge** | Free | Needs account — can auto-mirror GitHub releases |
-| **AlternativeTo** | Free | Needs account — community listing |
+| **SourceForge** | Free | ✅ **Live** — https://sourceforge.net/projects/ultra-system-monitor/ (GitHub code/files/tickets imported) |
+| **AlternativeTo** | Free | ⏳ Account created — site requires 7-day account age; submit after 2026-08-10 |
+| **Snap Store** | Free | ✅ Name `ultra-system-monitor` registered (also `aicms` reserved); upload the built `.snap` via `snapcraft` CLI (see below) |
 | **Homebrew cask** (macOS) | Free | Cask ready in `packaging/homebrew/` — submit after ~75 GitHub stars (their notability bar) |
 | **Flathub / Snap** (Linux) | Free | Requires flatpak/snap targets — future work |
 
