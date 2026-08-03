@@ -8,7 +8,7 @@
 
 **Powered by [AiCMS.BD](https://aicms.bd)** — Free software for the community. Freedom of privacy.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-00d9ff.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Free%20with%20Attribution-00d9ff.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-00ff88.svg)]()
 [![Freeware](https://img.shields.io/badge/100%25-Freeware-ff00e6.svg)](https://aicms.bd)
 
@@ -88,4 +88,7 @@ If these tools help you, star the repos and share them — that's all we ask. �
 
 ## 📄 License
 
-[MIT](LICENSE) © 2026 [AiCMS.BD](https://aicms.bd) — free to use, study, share, and improve, forever.
+[AiCMS.BD Freeware License](LICENSE) © 2026 [AiCMS.BD](https://aicms.bd) — free to use, study,
+share, and improve, forever, under one condition: **any software built from this code must show
+visible credit to AiCMS.BD** (e.g. "Powered by [AiCMS.BD](https://aicms.bd)" in its UI, README,
+or product page). Free software should stay credited to the community that built it. 🇧🇩

@@ -1,4 +1,5 @@
-MIT License
+AiCMS.BD Freeware License
+(MIT-style with Attribution Requirement)
 
 Copyright (c) 2026 AiCMS.BD (https://aicms.bd)
 
@@ -9,8 +10,26 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included
+   in all copies or substantial portions of the Software.
+
+2. ATTRIBUTION REQUIREMENT. Any software, product, or service that uses,
+   incorporates, or is derived from this Software, in whole or in part,
+   MUST provide clearly visible credit to AiCMS.BD in at least one of the
+   following places:
+
+     - the application's user interface (for example an About screen,
+       settings page, or footer), or
+     - the application's documentation or README, or
+     - the application's public download or product page.
+
+   The credit must read "Powered by AiCMS.BD" (or a reasonable equivalent
+   that names AiCMS.BD) and, wherever hyperlinks are supported, must link
+   to https://aicms.bd. The credit may not be hidden, obfuscated, or
+   removed in redistributions or derivative works.
+
+3. Removal of the attribution described in section 2 terminates the rights
+   granted by this license.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

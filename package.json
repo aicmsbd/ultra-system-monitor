@@ -8,7 +8,7 @@
     "email": "mail@aicms.bd"
   },
   "homepage": "https://aicms.bd",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "main": "dist-electron/electron/main.js",
   "scripts": {
     "build:main": "tsc -p tsconfig.electron.json",
