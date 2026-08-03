@@ -8,7 +8,7 @@ Copy-paste the blocks below into each site's submission form.
 | Venue | Cost | Status |
 |---|---|---|
 | **winget** (Windows Package Manager) | Free | ✅ **Submitted** — [PR #411531](https://github.com/microsoft/winget-pkgs/pull/411531), CLA signed. Once merged: `winget install AiCMSBD.UltraSystemMonitor` |
-| **Scoop** (Windows Package Manager) | Free | ✅ **Submitted** — [Extras PR #18447](https://github.com/ScoopInstaller/Extras/pull/18447). Once merged: `scoop install ultra-system-monitor` |
+| **Scoop** (Windows Package Manager) | Free | ✅ **Live via official bucket**: `scoop bucket add aicms https://github.com/aicmsbd/scoop-bucket` then `scoop install ultra-system-monitor`. Extras PR #18447 closed by maintainers as expected (popularity criteria) — file a package-request issue and resubmit at ~100 GitHub stars |
 | **AUR** (Arch Linux) | Free | PKGBUILD ready in `packaging/aur/` — needs an aur.archlinux.org account + SSH key (steps in the file) |
 | **Flathub** (Linux) | Free | Full manifest ready in `packaging/flathub/` — test with flatpak-builder on a Linux box, then PR to flathub/flathub (steps in the manifest header) |
 | **Microsoft Store** | Free (individual account) | Needs your Partner Center account — see steps below |
