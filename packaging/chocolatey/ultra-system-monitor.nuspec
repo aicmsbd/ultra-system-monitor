@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>ultra-system-monitor</id>
+    <version>1.0.0</version>
+    <title>Ultra System Monitor</title>
+    <authors>AiCMS.BD</authors>
+    <owners>aicmsbd</owners>
+    <projectUrl>https://github.com/aicmsbd/ultra-system-monitor</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/aicmsbd/ultra-system-monitor/main/assets/icon.png</iconUrl>
+    <licenseUrl>https://github.com/aicmsbd/ultra-system-monitor/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/aicmsbd/ultra-system-monitor</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/aicmsbd/ultra-system-monitor/issues</bugTrackerUrl>
+    <tags>system-monitor hardware cpu gpu ram network freeware privacy</tags>
+    <summary>Free real-time system monitoring sidebar for Windows</summary>
+    <description>
+Ultra System Monitor is a free real-time system monitoring sidebar for Windows by AiCMS.BD.
+
+Per-core CPU load and temperature, GPU stats (NVIDIA/AMD/Intel), RAM, motherboard, network with live graphs, storage and security health. Detach any section as a floating widget with card or speedometer gauge view. 3D glassmorphism themes, custom accent colors, English + Bangla, desktop alerts, CSV/JSON export.
+
+No ads. No tracking. No telemetry. Your data never leaves your machine.
+    </description>
+    <releaseNotes>https://github.com/aicmsbd/ultra-system-monitor/releases/tag/v1.0.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

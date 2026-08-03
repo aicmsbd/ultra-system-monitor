@@ -17,6 +17,7 @@
     "start": "npm run build && electron .",
     "app": "electron .",
     "dist": "npm run build && electron-builder --win",
+    "dist:store": "npm run build && electron-builder --win appx",
     "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.electron.json"
   },
   "dependencies": {

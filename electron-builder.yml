@@ -20,6 +20,15 @@ win:
       arch: [x64]
   artifactName: UltraSystemMonitor-Setup-${version}.exe
 
+# Microsoft Store package (unsigned; the Store signs it on publication).
+# Replace identityName/publisher with your Partner Center "Product identity"
+# values after reserving the app name, then run: npm run dist:store
+appx:
+  identityName: AiCMSBD.UltraSystemMonitor
+  publisher: CN=REPLACE-WITH-PARTNER-CENTER-PUBLISHER-ID
+  publisherDisplayName: AiCMS.BD
+  backgroundColor: '#0a0e27'
+
 nsis:
   oneClick: false
   perMachine: false
